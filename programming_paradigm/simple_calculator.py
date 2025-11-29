@@ -1,3 +1,4 @@
+
 class SimpleCalculator:
     """A simple calculator class that supports basic arithmetic operations."""
 
