@@ -1,6 +1,7 @@
 from book_class import Book as MagicBook
 from library_system import Book, EBook, PrintBook, Library
 from polymorphism_demo import Shape, Rectangle, Circle
+from class_static_methods_demo import Calculator
 
 
 def main_magic_methods():
@@ -48,6 +49,17 @@ def main_polymorphism():
         print(f"The area of the {shape.__class__.__name__} is: {shape.area()}")
 
 
+def main_static_class_methods():
+    """Test static and class methods from class_static_methods_demo.py"""
+    # Using the static method
+    sum_result = Calculator.add(10, 5)
+    print(f"The sum is: {sum_result}")
+
+    # Using the class method
+    product_result = Calculator.multiply(10, 5)
+    print(f"The product is: {product_result}")
+
+
 if __name__ == "__main__":
     # Test magic methods
     print("=== Testing Magic Methods ===")
@@ -58,3 +70,6 @@ if __name__ == "__main__":
     
     print("\n=== Testing Polymorphism and Method Overriding ===")
     main_polymorphism()
+    
+    print("\n=== Testing Static and Class Methods ===")
+    main_static_class_methods()
