@@ -1,5 +1,7 @@
 from book_class import Book as MagicBook
 from library_system import Book, EBook, PrintBook, Library
+from polymorphism_demo import Shape, Rectangle, Circle
+
 
 def main_magic_methods():
     """Test magic methods from book_class.py"""
@@ -35,6 +37,17 @@ def main_inheritance():
     my_library.list_books()
 
 
+def main_polymorphism():
+    """Test polymorphism and method overriding from polymorphism_demo.py"""
+    shapes = [
+        Rectangle(10, 5),
+        Circle(7)
+    ]
+
+    for shape in shapes:
+        print(f"The area of the {shape.__class__.__name__} is: {shape.area()}")
+
+
 if __name__ == "__main__":
     # Test magic methods
     print("=== Testing Magic Methods ===")
@@ -42,3 +55,6 @@ if __name__ == "__main__":
     
     print("\n=== Testing Inheritance and Composition ===")
     main_inheritance()
+    
+    print("\n=== Testing Polymorphism and Method Overriding ===")
+    main_polymorphism()
