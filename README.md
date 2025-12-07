@@ -8,7 +8,7 @@
 ## 👨🏾‍💻 About This Repo
 Welcome to the lab! I am **Clifford Opoku-Sarkodie**, an aspiring Back-End Developer and Cybersecurity enthusiast.
 
-This repository serves as my **"Brag Doc"** and technical work log. Here, I document my journey through the ALX Software Engineering program, tracking the systems I build, the bugs I squash, and the architectural concepts I master.
+This repository serves as my **"Brag Doc"** and technical work log. Here, I document my journey through the ALX Software Engineering program, tracking the systems I build, the bugs I squash, and the lessons I learn.
 
 ---
 
@@ -27,7 +27,7 @@ This month, I shifted gears from writing simple scripts to designing robust, cla
 - **Magic Methods:** Clarified the crucial difference between `__str__` (user-facing) and `__repr__` (developer-facing) to improve debugging workflows.
 
 ### 🔥 Failures & Lessons
-> *"You don't learn from success; you learn from the bugs that keep you up at night."*
+>"You don't learn from success; you learn from the bugs that keep you up at night."
 
 - **The Challenge:** I initially struggled with the **Diamond Problem** in Multiple Inheritance and understanding Python's MRO (Method Resolution Order).
 - **The Fix:** I learned to trace the C3 Linearization algorithm and realized that **Composition** is often a safer architectural choice than complex Inheritance.
@@ -62,3 +62,24 @@ class DataProcessor:
         """
         allowed_exts = [".csv", ".json"]
         return any(file_name.endswith(ext) for ext in allowed_exts)
+```
+
+---
+
+## 📁 Project History
+
+| Month   | Focus Area                 | Key Technologies                 | Status      |
+|--------:|---------------------------:|---------------------------------:|:-----------:|
+| Month 2 | Advanced OOP & Testing     | Python, Unittest, JSON / Pickle  | ✅ Completed |
+| Month 1 | Python Fundamentals        | Shell, Git, Basic Python         | ✅ Completed |
+
+---
+
+## 🤝 Connect With Me
+I’m always open to conversations about Backend Architecture, Cybersecurity, and Military Tech applications.
+
+- LinkedIn: [Clifford Opoku-Sarkodie](https://www.linkedin.com/in/clifford-opoku-sarkodie-377505369/)  
+- GitHub: [cliff-de-tech](https://github.com/cliff-de-tech)  
+- Portfolio: [cliff-de-tech.github.io](https://cliff-de-tech.github.io/)
+
+---
